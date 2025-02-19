@@ -43,4 +43,7 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
+    implementation 'androidx.core:core:1.7.0'
+    implementation 'com.google.code.gson:gson:2.8.8'
+    implementation 'io.realm:realm-android-library:10.10.0'
 }

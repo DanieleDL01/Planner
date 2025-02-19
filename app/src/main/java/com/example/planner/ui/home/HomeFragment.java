@@ -12,7 +12,21 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.planner.databinding.FragmentHomeBinding;
 
+
+//aggiunti da me
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+
+import android.Manifest;
+import android.content.pm.PackageManager;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
 public class HomeFragment extends Fragment {
+
+
 
     private FragmentHomeBinding binding;
 
