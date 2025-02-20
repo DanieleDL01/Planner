@@ -1,4 +1,4 @@
-package com.example.planner.ui;
+package com.example.planner;
 
 import android.app.Application;
 import io.realm.Realm;
